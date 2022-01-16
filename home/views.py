@@ -1,3 +1,4 @@
+from multiprocessing import context
 from django.shortcuts import render, HttpResponse, redirect
 from home.models import Contact
 from django.contrib import messages
@@ -7,7 +8,9 @@ from blog.models import Post
 
 # Create your views here.
 def home(request):
-    return render(request, "home/home.html")
+    postsView = Post.objects.filter().order_by("-views")[0:3]
+    context = {"postsView": postsView}
+    return render(request, "home/home.html", context)
 
 
 def about(request):
