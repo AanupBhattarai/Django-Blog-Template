@@ -12,7 +12,7 @@ The default password i setup for the admin panel is **admin** and password is **
 
 ## Screenshots
 
-![App Screenshot](https://user-images.githubusercontent.com/71394788/149706096-6269445e-5aad-475c-b31b-81de77b812f5.jpg)
+![Screenshot](https://user-images.githubusercontent.com/71394788/149706096-6269445e-5aad-475c-b31b-81de77b812f5.jpg)
 
 
 ## Run Locally
